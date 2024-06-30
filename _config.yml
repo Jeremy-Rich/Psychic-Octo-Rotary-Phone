@@ -4,6 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeremy-rich.github.io/turbo-octo-spork" # the base hostname & protocol for your site
 markdown: kramdown
 theme: minima
+
+# Exclude these files from the build
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -13,6 +15,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Jekyll options
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
